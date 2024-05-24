@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Name from './Name.js'
 
 function App() {
   return (
     <div>
-      Hello world
+      Hello from 
+      <Name/>
+
     </div>
   );
 }
