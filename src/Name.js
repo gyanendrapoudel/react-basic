@@ -1,6 +1,6 @@
-const Name = ()=>{
+const Name = (props)=>{
     return <div>
-        <h4>Gyanendra</h4>
+        <h4>Gyanendra {props.lName}</h4>
     </div>
 }
 export default Name;
