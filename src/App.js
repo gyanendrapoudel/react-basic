@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Name from './Name.js'
+import Name from './Hooks/1.UseState'
 
 function App() {
    const lastName="Poudel"
