@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100vh;
+    background: linear-gradient(to left, rgb(217, 155, 155), rgb(157, 157, 239));
+}
+
+li{
+    list-style: none;
+}
+.title{
+    text-align: center;
+    padding: 1rem 0;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: rgb(76, 45, 45);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+   
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem
+    
+   
+}
+.container>h2{
+    font-weight: 400; 
+}
+.container img{
+    height: 100px;
+    border-radius: 50px;
+
+
+}
+.container li{
+    
+}
+.user-details{
+    background: red;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 0;
+    padding-top:0;
+    
+  
+
+}
