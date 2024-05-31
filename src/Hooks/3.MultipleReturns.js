@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 const MultipleReturns = ()=>{
-    const url = 'https://api.github.com/users/Quincylarson'
+    const url = 'https://api.github.com/users/Quincylarsons'
     const [isLoading, setIsLoading]= useState(true)
     const [error, setError]= useState(false)
     const [user, setUser]=useState(null)
@@ -11,6 +11,11 @@ const MultipleReturns = ()=>{
         const fetchUser = async()=>{
             try{
             const response =  await fetch(url)
+            if(!response.ok){
+                setIsLoading(false)
+                setError(true)
+                return 
+            }
             const data = await  response.json()
             setUser(data);
             console.log(user)
