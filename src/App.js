@@ -5,7 +5,8 @@ import './App.css';
 // import User from './Hooks/3.MultipleReturns.js'
 // import User from './Hooks/4.ShortCircuit'
 // import User from './Hooks/5.Toggle'
-import CleanUp from './Hooks/6.CleanUp';
+// import CleanUp from './Hooks/6.CleanUp'
+import Event from './Hooks/7.EventListenerOnUseEffect'
 
 
 
@@ -13,7 +14,8 @@ import CleanUp from './Hooks/6.CleanUp';
 function App() {
   return (
   // <User/>
-  <CleanUp/>
+  // <CleanUp/>
+  <Event/>
 )
 
 }
