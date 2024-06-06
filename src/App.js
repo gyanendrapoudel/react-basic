@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import './App.css';
 // import User from './Hooks/1.UseState.js'
@@ -6,18 +7,23 @@ import './App.css';
 // import User from './Hooks/4.ShortCircuit'
 // import User from './Hooks/5.Toggle'
 // import CleanUp from './Hooks/6.CleanUp'
-import Event from './Hooks/7.EventListenerOnUseEffect'
+// import Event from './Hooks/7.EventListenerOnUseEffect'
+import ControlledInput from './Hooks/8.ControlledInput.js'
 
 
 
 
 function App() {
   return (
-  // <User/>
-  // <CleanUp/>
-  <Event/>
-)
+    <>
+       {/* <User /> */}
+       {/* <CleanUp /> */}
+       {/* <Event /> */}
+      <ControlledInput/>
+      
+    </>
+  )
 
 }
 
-export default App;
+export default App

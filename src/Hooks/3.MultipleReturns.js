@@ -34,6 +34,7 @@ const MultipleReturns = ()=>{
     if(error){
         return <div>There is an error</div>
     }
+    // Point to remember, destructure after conditional render
     const {avatar_url, name, company, bio} = user;
     return (
       <div className="user-info">
