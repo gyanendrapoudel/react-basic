@@ -8,8 +8,8 @@ import './App.css';
 // import User from './Hooks/5.Toggle'
 // import CleanUp from './Hooks/6.CleanUp'
 // import Event from './Hooks/7.EventListenerOnUseEffect'
-import ControlledInput from './Hooks/8.ControlledInput.js'
-
+// import ControlledInput from './Hooks/8.ControlledInput.js'
+import CheckboxInput from './Hooks/9.CheckboxInput';
 
 
 
@@ -19,7 +19,8 @@ function App() {
        {/* <User /> */}
        {/* <CleanUp /> */}
        {/* <Event /> */}
-      <ControlledInput/>
+       {/* <ControlledInput/> */}
+       <CheckboxInput/>
       
     </>
   )
