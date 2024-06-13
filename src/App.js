@@ -10,6 +10,7 @@ import './App.css';
 // import Event from './Hooks/7.EventListenerOnUseEffect'
 // import ControlledInput from './Hooks/8.ControlledInput.js'
 import CheckboxInput from './Hooks/9.CheckboxInput';
+import ContextAPI from './Hooks/10.ContextAPI';
 
 
 
@@ -20,7 +21,8 @@ function App() {
        {/* <CleanUp /> */}
        {/* <Event /> */}
        {/* <ControlledInput/> */}
-       <CheckboxInput/>
+       {/* <CheckboxInput/> */}
+       <ContextAPI/>
       
     </>
   )
