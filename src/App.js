@@ -11,6 +11,7 @@ import './App.css';
 // import ControlledInput from './Hooks/8.ControlledInput.js'
 import CheckboxInput from './Hooks/9.CheckboxInput';
 import ContextAPI from './Hooks/10.ContextAPI';
+import UseReducer from './Hooks/11.UseReducer';
 
 
 
@@ -22,7 +23,8 @@ function App() {
        {/* <Event /> */}
        {/* <ControlledInput/> */}
        {/* <CheckboxInput/> */}
-       <ContextAPI/>
+       {/* <ContextAPI/> */}
+       <UseReducer/>
       
     </>
   )
