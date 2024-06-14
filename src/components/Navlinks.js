@@ -1,4 +1,7 @@
-const Navlinks = ({handleLogout, user}) => {
+import { useContext } from "react"
+import {NavContext} from '../Hooks/10.ContextAPI'
+const Navlinks = () => {
+    const {user, handleLogout} = useContext(NavContext)
   return (
     <ul className="p-3 d-flex justify-content-evenly">
       <li className="text-danger">Home</li>

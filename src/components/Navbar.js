@@ -1,8 +1,8 @@
 import Navlinks from "./Navlinks"
-const Navbar = ({handleLogout, user}) => {
+const Navbar = () => {
   return (
     <nav>
-      <Navlinks handleLogout={handleLogout} user={user}/>
+      <Navlinks />
     </nav>
   )
 }
